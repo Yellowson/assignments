@@ -92,7 +92,32 @@ public class multiple {
         System.out.println("2,000,000,000 * 9 = " + (long)bigNo * 9);
         System.out.println("2,000,000,000 * 10 = " + (long)bigNo * 10);
 
+        System.out.println("  Multiplication Table 2,3,4,200 and 2,000,000,000 using Loop");
 
+        System.out.println();
+        System.out.println("Multiples of 2");
+        for (int i=1; i<11; i=i+1)
+        System.out.println(" result= " +(byte)small*i);
+
+        System.out.println();
+        System.out.println("Multiples of 3");
+        for (int i = 1; i <=10; i = i+1)
+        System.out.println("result =" + small3 * i);
+
+        System.out.println();
+        System.out.println("Multiples of 4");
+        for (int i = 1; i <=10; i = i+1)
+            System.out.println("result =" + small4 * i);
+
+        System.out.println();
+        System.out.println("Multiples of 200");
+        for (int i = 1; i <=10; i = i+1)
+            System.out.println("result =" + ((short)nope) * i);
+
+        System.out.println();
+        System.out.println("Multiples of 2,000,000,000");
+        for (int i = 1; i <=10; i = i+1)
+            System.out.println("result =" + ((long)bigNo) * i);
 
     }
 }
